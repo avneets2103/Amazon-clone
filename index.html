@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="top">
+        <!-- navbar -->
+        <div class="navbar">
+            <div class="navIn nav1">
+                <div class="mainLogo">
+                    <img src="images/amazon_logo.png" alt="amazon_logo" height="70px" style="margin-top: 10px;">
+                </div>
+                <div class="location hoverBorder">
+                    <div class="point">
+                        <img width="20" height="20" src="images/icons8-location-50.png" alt="location" style="margin-top: 12px;"/>
+                    </div>
+                    <div class="locText">
+                        <p style="font-size: 12px; color: #ffffffb2; white-space: nowrap;">Deliver to</p>
+                        <p style="font-weight: 600;">India</p>
+                    </div>
+                </div>
+            </div>
+            <div class="navIn nav2 clickBorder">
+                <!-- ALL -->
+                <div class="opts">
+                    <select class = 'categories'>
+                        <option value="All">All</option>
+                        <option value="Arts">Arts</option>
+                        <option value="Baby">Baby</option>
+                        <option value="Mouse">Mouse</option>
+                        <option value="Toys">Toys</option>
+                        <option value="Luggage">Luggage</option>
+                    </select>
+                </div>
+                <!-- Search amazon -->
+                <div class="search">
+                    <input placeholder="Search Amazon" class="searchInput">
+                </div>
+                <!-- Search Icon -->
+                <div class="searchIcon">
+                    <img src="images/search.svg" alt="Search">
+                </div>
+            </div>
+            <div class="navIn nav3">
+                <!-- EN -->
+                <div class="lang hoverBorder">
+                    <img src="images/fla.png" alt="English" height="18px">
+                    <p>EN</p>
+                </div>
+                <!-- Sign in -->
+                <div class="signIn hoverBorder">
+                    <p style="white-space: nowrap;">Hello, sign in</p>
+                    <p style="white-space: nowrap;">Account and Lists</p>
+                </div>
+                <!-- return -->
+                <div class="return hoverBorder">
+                    <p>Returns</p>
+                    <p style="white-space: nowrap;">& Orders</p>
+                </div>
+                <!-- cart -->
+                <div class="cart hoverBorder">
+                    <img src="images/cart.png" alt="cart">
+                </div>
+            </div>
+        </div>
+        <!-- Under nav bar-->
+        <div class="underNav">
+            <div class="nav2In All hoverBorder">
+                <img src="images/hamburger.png" alt="menu">
+                <p>All</p>
+            </div>
+            <div class="nav2In Deals hoverBorder"><p>Today's Deals</p></div>
+            <div class="nav2In Registry hoverBorder"><p>Registry</p></div>
+            <div class="nav2In Service hoverBorder"><p>Customer Service</p></div>
+            <div class="nav2In Cards hoverBorder"><p>Gift Cards</p></div>
+            <div class="nav2In Sell hoverBorder"><p>Sell</p></div>
+        </div>
+    </header>
+
+    <div class="main image-container">
+        <div class="bg1 bg"></div>
+        <div class="courosal">
+            <div class="arrows">
+                <img src="images/left-arrow.png" alt="left" id="left">
+                <img src="images/right-arrow.png" alt="right" id="right">
+            </div>
+        </div>
+        <div class="innerMain">
+            <div class="des">
+                <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="https://www.amazon.in/">Click here to go to amazon.in</a></p>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <div class="cardhead">Gaming accessories</div>
+                    <div class="show gamingShow">
+                        <div class="showIn">
+                            <img src="images/gaming 1.jpg" alt="">
+                            Headphones
+                        </div>
+                        <div class="showIn">
+                            <img src="images/gaming 2.jpg" alt="">
+                            Keyboard
+                        </div>
+                        <div class="showIn">
+                            <img src="images/gaming 3.jpg" alt="">
+                            Mouse
+                        </div>
+                        <div class="showIn">
+                            <img src="images/gaminf 4.jpg" alt="">
+                            Chair
+                        </div>
+                    </div>
+                    <div class="link"><a href="">See more</a></div>
+                </div>
+                <div class="card">
+                    <div class="cardhead">Toys under $25</div>
+                    <div class="show">
+                        <img src="images/toys.jpg" alt="toys">
+                    </div>
+                    <div class="link"><a href="">Shop now</a></div>
+                </div>
+                <div class="card">
+                    <div class="cardhead">Deals in PCs</div>
+                    <div class="show">
+                        <img src="images/pcs.jpg" alt="pcs">
+                    </div>
+                    <div class="link"><a href="">Shop now</a></div>
+                </div>
+                <div class="card">
+                    <div class="cardhead">Top deal</div>
+                    <div class="show" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+                        <img src="images/skincare.jpg" alt="topdeal" style="width: 40%; height: 250px;">
+                    </div>
+                    <div id="topDeal">
+                        <p>Deal lasts for:</p><span id="timeCounter"> <span class = 'hrs'>00</span> hrs <span class = 'mins'>00</span> mins <span class="secs">03</span>secs</span>
+                    </div>
+                    <div class="link"><a href="">See all details</a></div>
+                </div>
+                <div class="card">
+                    <div class="cardhead">Beauty</div>
+                    <div class="show">
+                        <img src="images/beauty.jpg" alt="shoes">
+                    </div>
+                    <div class="link"><a href="">Show all deals</a></div>
+                </div>
+                <div class="card">
+                    <div class="cardhead">New year, now you</div>
+                    <div class="show"><img src="images/new year.jpg" alt="ny"></div>
+                    <div class="link"><a href="">Shop now</a></div>
+                </div>
+                <div class="card">
+                    <div class="cardhead">Personal care</div>
+                    <div class="show"><img src="images/personal care.jpg" alt="brush"></div>
+                    <div class="link"><a href="">Explore more</a></div>
+                </div>
+                <div class="card">
+                    <div class="cardhead">Some Shoes</div>
+                    <div class="show"><img src="images/shoes.jpg" alt="shoe"></div>
+                    <div class="link"><a href="">Shop now</a></div>
+                </div>
+            </div>
+            <div class="bestSells">
+                <div class="bestSell bookBestSell">
+                    <div class="bestHead">Best Sellers in Books</div>
+                    <div class="bestProducts">
+                        <a href=""><img src="images/book1.jpg" alt="book1"></a>
+                        <a href=""><img src="images/book2.jpg" alt="book2"></a>
+                        <a href=""><img src="images/book3.jpg" alt="book3"></a>
+                        <a href=""><img src="images/book4.jpg" alt="book4"></a>
+                        <a href=""><img src="images/book5.jpg" alt="book5"></a>
+                        <a href=""><img src="images/book6.jpg" alt="book6"></a>
+                        <a href=""><img src="images/book7.jpg" alt="book7"></a>
+                        <a href=""><img src="images/book8.jpg" alt="book8"></a>
+                    </div>
+                </div>
+                <div class="bestSell">
+                    <div class="bestHead">Best Sellers in Home & Kitchen</div>
+                    <div class="bestProducts">
+                        <a href=""><img src="images/k1.jpg" alt="k1"></a>
+                        <a href=""><img src="images/k2.jpg" alt="k2"></a>
+                        <a href=""><img src="images/k3.jpg" alt="k3"></a>
+                        <a href=""><img src="images/k4.jpg" alt="k4"></a>
+                        <a href=""><img src="images/k5.jpg" alt="k5"></a>
+                        <a href=""><img src="images/k6.jpg" alt="k6"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="back">
+            <a href="#top" style="color: white;"><p>Back to top</p></a>
+        </div>
+        <div class="end">
+            <div class="Linklist">
+                <p class="linkHead">Get to know us</p>
+                <a href="">Careers</a>
+                <a href="">Blog</a>
+                <a href="">About Amazon</a>
+                <a href="">Investor Relations</a>
+                <a href="">Amazon Devices</a>
+                <a href="">Amazon Science</a>
+            </div>
+            <div class="Linklist">
+                <p class="linkHead">Make Money with Us</p>
+                <a href="">Sell products on Amazon</a>
+                <a href="">Sell on Amazon Business</a>
+                <a href="">Sell apps on Amazon</a>
+                <a href="">Become an Affiliate</a>
+                <a href="">Advertise Your Products</a>
+                <a href="">Self-Publish with Us</a>
+                <a href="">Host an Amazon Hub</a>
+            </div>
+            <div class="Linklist">
+                <p class="linkHead">Amazon Payment Products</p>
+                <a href="">Amazon Business Card</a>
+                <a href="">Shop with Points</a>
+                <a href="">Reload Your Balance</a>
+                <a href="">Amazon Currency Converter</a>
+            </div>
+            <div class="Linklist">
+                <p class="linkHead">Let Us Help You</p>
+                <a href="">Amazon and COVID-19</a>
+                <a href="">Your Account</a>
+                <a href="">Your Orders</a>
+                <a href="">Shipping Rates & Policies</a>
+                <a href="">Returns & Replacements</a>
+                <a href="">Manage Your Content and Devices</a>
+                <a href="">Amazon Assistant</a>
+                <a href=""> Help</a>
+            </div>
+        </div>
+        <hr>
+        <div class="cc">
+            <a href="#top"><img src="images/amazon_logo.png" height="50px"></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
